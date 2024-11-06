@@ -1,2 +1,2 @@
 # Quiz-Game
-simple quiz game
+Simple quiz game implemented using object oriented programming.
