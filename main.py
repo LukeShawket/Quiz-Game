@@ -1,14 +1,14 @@
 import question_model
-from data import question_data
+import data
 from question_model import Question
 from quiz_brain import Brain
+import ui
 
 question_bank = []
-for question in question_data:
-    new_question  = Question(question["text"], question["answer"])
+data_dict = data.get_question("easy")
+
+for key in data_dict:
+    new_question = Question(data_dict[key]['question'], data_dict[key]['answer'])
     question_bank.append(new_question)
 
-quiz = Brain(question_bank)
-
-while quiz.is_have_question():
-    quiz.next_question()
+main_screen = ui.QuizUi(question_bank)
