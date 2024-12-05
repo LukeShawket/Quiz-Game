@@ -10,7 +10,7 @@ A fun and challenging quiz game built with Python's Tkinter GUI library and the 
 
 • Real-time Scoring: Track your progress and compete with friends.    
 
-• Engaging Gameplay: Keep you entertained with a true/false questions.      
+• Engaging Gameplay: Keep you entertained with true/false questions.      
 
 # Technologies Used:        
 
